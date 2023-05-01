@@ -55,6 +55,3 @@ G = nx.from_pandas_adjacency(data_cor)
 print("ファイルを出力しています")
 nx.write_graphml(G, "../for_cytoscape/" + out_f + ".graphml")
 
-if __name__ == "__main__":
-
-    print("相関係数で作成したネットワーク図をcytoscape用に出力します")
